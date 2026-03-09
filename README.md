@@ -1,4 +1,4 @@
-# 🔥 Forest Fire Prediction & Spread Simulator 🔥
+# 🔥 Forest Fire Prediction & Spread Simulator
 
 A geospatial artificial intelligence system for **predicting next-day forest fire probability and simulating wildfire spread** using satellite imagery, terrain information, vegetation indices, and meteorological variables.
 
