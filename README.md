@@ -273,7 +273,6 @@ The original land cover classes were converted into **fire fuel categories**.
 ---
 
 ### Fuel Classification Map
-
 ![Fuel Classification Map](docs/images/fuel_classification.png)
 
 ---
