@@ -727,7 +727,8 @@ These datasets were collected and processed using **Google Earth Engine** and ex
 | Fire Labels | Satellite Fire Detection Products | ~375 m | Historical Fire Occurrence |
 | Study Region | State AOI Boundaries | Vector | Madhya Pradesh, Maharashtra, Chhattisgarh, Odisha, Andhra Pradesh |
 
-These datasets were combined into **multi-band raster stacks** representing environmental conditions for each spatial location. The stacked features serve as input to the **U-Net deep learning model for fire probability prediction**.
+These datasets were converted to **same spatial resolution** and then combined into **multi-band raster stacks** representing environmental conditions for each spatial location. The stacked features serve as input to the **U-Net deep learning model for fire probability prediction**.
+
 ---
 
 
@@ -1165,8 +1166,8 @@ Upcoming development stages:
 * Streamlit web deployment
 
 ---
-
 # Author
 
 Pon Ajith Kumar P (AI/Machine Learning & Geospatial Enthusiast)
+
 ---
