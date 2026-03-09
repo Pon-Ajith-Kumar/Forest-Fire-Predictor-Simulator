@@ -59,11 +59,7 @@ These ecosystems experience **seasonal wildfire activity during dry months**.
 
 The five states were merged to create a single **combined Area of Interest (AOI)** for analysis.
 
-Image placeholder:
-
-```
-docs/images/combined_aoi.png
-```
+![Combined Study Area](docs/images/combined_aoi.png)
 
 ---
 
@@ -163,11 +159,7 @@ var dem = demCollection.filterBounds(aoi)
 
 ### DEM Visualization
 
-Image placeholder:
-
-```
-docs/images/dem_visualization.png
-```
+![DEM Visualization](docs/images/dem_visualization.png)
 
 ---
 
@@ -192,11 +184,7 @@ ee.Terrain.slope()
 
 ### Slope Visualization
 
-Image placeholder:
-
-```
-docs/images/slope_visualization.png
-```
+![Slope Visualization](docs/images/slope_visualization.png)
 
 ---
 
@@ -229,11 +217,7 @@ ee.Terrain.aspect()
 
 ### Aspect Visualization
 
-Image placeholder:
-
-```
-docs/images/aspect_visualization.png
-```
+![Aspect Visualization](docs/images/aspect_visualization.png)
 
 ---
 
@@ -290,11 +274,7 @@ The original land cover classes were converted into **fire fuel categories**.
 
 ### Fuel Classification Map
 
-Image placeholder:
-
-```
-docs/images/fuel_classification.png
-```
+![Fuel Classification Map](docs/images/fuel_classification.png)
 
 ---
 
@@ -356,11 +336,7 @@ Higher NDVI values indicate:
 
 ### NDVI Visualization
 
-Image placeholder:
-
-```
-docs/images/ndvi_visualization.png
-```
+![NDVI Map](docs/images/ndvi_visualization.png)
 
 ---
 
@@ -391,11 +367,7 @@ Lower NBR values indicate:
 
 ### NBR Visualization
 
-Image placeholder:
-
-```
-docs/images/nbr_visualization.png
-```
+![NBR Map](docs/images/nbr_visualization.png)
 
 ---
 
@@ -425,11 +397,7 @@ Lower NDWI values indicate:
 
 ### NDWI Visualization
 
-Image placeholder:
-
-```
-docs/images/ndwi_visualization.png
-```
+![NDWI Map](docs/images/ndwi_visualization.png)
 
 ---
 
@@ -505,11 +473,7 @@ millimeters
 
 ### Rainfall Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_rainfall.png
-```
+![Rainfall Map](docs/images/weather_rainfall.png)
 
 ---
 
@@ -531,11 +495,7 @@ degrees Celsius
 
 ### Maximum Temperature Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_tmax.png
-```
+![Maximum Temperature Map](docs/images/weather_tmax.png)
 
 ---
 
@@ -556,11 +516,7 @@ degrees Celsius
 
 ### Minimum Temperature Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_tmin.png
-```
+![Minimum Temperature Map](docs/images/weather_tmin.png)
 
 ---
 
@@ -574,11 +530,7 @@ Higher mean temperatures typically correlate with increased fire risk.
 
 ### Mean Temperature Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_tmean.png
-```
+![Mean Temperature Map](docs/images/weather_tmean.png)
 
 ---
 
@@ -600,11 +552,7 @@ Lower dew point values indicate:
 
 ### Dew Point Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_dewpoint.png
-```
+![Dew Point Temperature Map](docs/images/weather_dewpoint.png)
 
 ---
 
@@ -631,11 +579,7 @@ percentage
 
 ### Relative Humidity Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_humidity.png
-```
+![Relative Humidity Map](docs/images/weather_humidity.png)
 
 ---
 
@@ -659,11 +603,7 @@ meters per second
 
 ### Wind Speed Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_windspeed.png
-```
+![Wind Speed Map](docs/images/weather_windspeed.png)
 
 ---
 
@@ -688,11 +628,7 @@ Values range from:
 
 ### Wind Direction Visualization
 
-Image placeholder:
-
-```
-docs/images/weather_winddir.png
-```
+![Wind Direction Map](docs/images/weather_winddir.png)
 
 ---
 
@@ -754,6 +690,8 @@ Encoder → Bottleneck → Decoder
 The core predictive component of this project is a **U-Net based deep learning model** designed to generate **pixel-level fire probability maps** from multi-band geospatial raster inputs.
 
 U-Net is a convolutional neural network architecture originally developed for **biomedical image segmentation**, but it has become widely used in **remote sensing, land cover classification, and environmental modeling** because of its ability to capture both **spatial patterns and contextual information**.
+
+![U-Net Architecture](docs/images/unet_architecture.png)
 
 In this project, U-Net is used to learn complex relationships between environmental factors such as:
 
